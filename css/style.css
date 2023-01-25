@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Arvo;
+    src: url(../font/arvo/Arvo-Regular_201.ttf);
+   }
+
+.devices {
+    padding: 80px;
+    min-width: 600px;
+}
+
+.devices,
+.devices__plan__pencil,
+.devices__plan__cotroler,
+.devices__plan__upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.devices_chapter {
+    font-size: 35px;
+    font-family: Arvo;
+}
+
+.devices__choice {
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: rgb(124, 122, 119);
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    border: 2px solid green;
+    border-radius:25px;
+}
+
+.devices__choice_phone,
+.devices__choice_pad,
+.devices__choice_book {
+    display: inline-block;
+    padding: 10px;
+}
+
+.devices__choice_phone:hover,
+.devices__choice_pad:hover,
+.devices__choice_book:hover {
+    background-color: #eeeeee;
+    color: rgb(0, 0, 0);
+}
+
+.devices__plan {
+    display: flex;
+}
+
+.devices__plan__pencil,
+.devices__plan__cotroler,
+.devices__plan__upload {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid transparent;
+}
+
+.devices__plan__pencil:hover,
+.devices__plan__cotroler:hover,
+.devices__plan__upload:hover {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid rgb(63, 63, 255);
+    border-radius: 10px;
+}
+
+.devices__plan__pencil__ball,
+.devices__plan__cotroler__ball,
+.devices__plan__upload__ball {
+    width: 60px;
+    height: 60px;
+    background-color: #fbc52b;
+    border-radius: 50%;
+}
+
+.devices__plan__pencil__ball_img,
+.devices__plan__cotroler__ball_img,
+.devices__plan__upload__ball_img {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.devices__plan__pencil_way,
+.devices__plan__cotroler_way,
+.devices__plan__upload_way {
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.devices__plan__pencil_desk,
+.devices__plan__cotroler_desk,
+.devices__plan__upload_desk {
+    color: rgb(124, 122, 119);
+}
